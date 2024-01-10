@@ -1,0 +1,35 @@
+
+.how-work-left {padding-right: 83px;}
+.how-work-right {padding-left: 22px;}
+.accordion-head .accordion-button { padding: 40px 40px 40px 0; border: none;cursor: pointer;}
+.accordion-item.accordion-item {border-radius: 0;border: none;border-top: 1px solid rgba(0, 0, 0, 0.19);position: relative;}
+.accordion-item.accordion-item:last-child {border-bottom: 1px solid rgba(0, 0, 0, 0.19);}
+.accordion-head .accordion-button:not(.collapsed) {background-color: var(--white); border-radius: 0; box-shadow:none;}
+.accordion-head .accordion-item:first-of-type .accordion-button {border-radius:none; }
+.accordion-head-icon { width: 32px; height: 32px; display: flex;}
+.accordion-head-icon img { width: 100%; height: 100%; object-fit: contain;}
+.accordion-head .accordion-button h5 {color: var(--black);font-size: 20px;font-weight: 600;line-height: 1.6;margin-bottom: 0; margin-left: 25px;}
+.accordion-button:hover h5{color: var(--red);}
+.accordion-item .accordion-body {font-size: 16px;line-height: 1.6;padding: 0 0 40px 56px;}
+.accordion-body p small{display: inline-block;font-size: 14px;line-height: 1.6;}
+.accordion-body p:first-child{margin-bottom: 30px;}
+.bullet-item {display: flex;padding-left: 34px;position: relative;font-size: 14px;font-weight: 400;line-height: 1.6;margin-bottom: 15px;}
+.bullet-item:last-child{margin-bottom:0;}
+.bullet-list {margin-bottom: 27px;}
+.accordion-para {color: var(--black);font-size: 14px;font-weight: 400;line-height: 1.6;margin-top: 29px;}
+.accordion-head {position: relative;}
+.accordion-head .accordion-button::after { width: 30px;height: 36px;margin-left: auto;content: "";background-image: url(../../Assets/plus-icon.svg);background-repeat: no-repeat;background-size: auto;position: absolute;right: 2px;}
+.accordion-head .accordion-button:not(.collapsed)::after {background-image: url(../../Assets/minus-icon.svg);transform:none;}
+.bullet-item:after{position:absolute;content:'';width:20px;height:20px;left:0;top:0;display:flex;background-image:url(../../Assets/accordion-finger-icon.svg);background-repeat: no-repeat;background-size: cover;background-position: center;}
+
+
+@media (max-width:991.98px){
+.how-work-left{width: 100%;padding: 0;}
+.how-work-right{width:100%; margin-top: 60px;padding: 0;}
+.accordion-head .accordion-button {padding: 29px 30px 29px 0;border: none;}
+.accordion-head .accordion-button h5 {font-size: 16px;}
+.wl-text h4 { font-size: 32px;}
+.accordion-head.accordion-button::after {right: 0;}
+.accordion-body.accordion-body { padding: 14px 0px 26px 57px;}
+
+}

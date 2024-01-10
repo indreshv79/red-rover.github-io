@@ -1,0 +1,6 @@
+.logo-carousel-slider .swiper-wrapper{transition-timing-function: linear;}
+.logo-carousel-slider .swiper-slide{width: max-content;}
+.logo-carousel-box{width: auto;height: 80px;border-radius: 5px;padding: 2px;background: rgba(0, 0, 0, 0.10);}
+.logo-carousel-box:hover{background: linear-gradient(45deg, rgba(228,0,42,1) 0%, rgba(228,0,42,0.3) 100%);}
+.logo-carousel-img{width: 100%; height: 100%;border-radius: 3px;overflow: hidden;}
+.logo-carousel-img img{width: 100%; height: 100%; object-fit: cover;}

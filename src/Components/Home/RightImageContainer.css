@@ -1,0 +1,16 @@
+.ric-text-box{width: 37%;}
+.ric-text-box strong{font-weight: 600;}
+.ric-media-box{width: 63%;padding-left: 6.533%;}
+.ric-media-inside{width: 100%;padding-bottom: 71.43%;border-radius: 12px;overflow: hidden;}
+.ric-media{width: 100%;height: 100%;position: absolute;top: 0;left: 0;bottom: 0;right: 0;}
+.ric-media img{width: 100%;height: 100%;object-fit: cover;}
+.ric-play-icon{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);z-index: 5;border: none;background:none;filter: drop-shadow(0px 0px 24px rgba(0, 0, 0, 0.15));}
+.ric-play-icon img{width: 62px;height: 62px;object-fit: contain;}
+
+@media (max-width:1199.98px){}
+@media (max-width:991.98px){
+.ric-text-box{width: 100%;line-height: 1.55;}
+.ric-media-box{width: 100%;padding-left: 0;margin-top: 62px;}
+}
+@media (max-width:767.98px){}
+@media (max-width:575.98px){}

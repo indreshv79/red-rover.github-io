@@ -1,0 +1,36 @@
+#footer {padding:32px 0;background-color: #E9EEF4;}
+.footer-upper {padding: 40px 0 50px;}
+.footer-lower {padding: 40px 0 30px;}
+.footer-upper-right {font-size: 16px;line-height: 24px;}
+.footer-nav-list .footer-nav-item {padding: 0 20px;}
+.footer-nav-links {position: relative;padding-left: 45px;margin-left: 20px;}
+.footer-nav-links:before {content: '';width: 1px;height: calc(100% - 4px);background: currentColor;position: absolute;left: 0;top: 50%;transform: translateY(-50%);}
+.footer-logo{width: 203px;}
+.footer-link span{color: var(--red);}
+.footer-lower {font-size: 14px;line-height: 21px;color: rgb(0 0 0 / 70%);border-top: 1px solid rgb(0 0 0 / 10%);font-family: 'Poppins', sans-serif;}
+.footer-lower .footer-nav-item{position: relative;}
+.footer-lower .footer-nav-item:not(:last-child)::before{content: '';width: 1px;height: calc(100% - 4px);background: currentColor;position: absolute;right: 0;top: 50%;transform: translateY(-50%);}
+.social-link {gap: 30px;color: var(--black);font-size: 18px;position: absolute;left: 50%;transform: translateX(-50%);}
+.footer-lower ul.footer-nav-list {margin-left: -23px;}
+.footer-lower .footer-nav-list .footer-nav-item{padding: 0 23px;}
+.copyright > span {margin-left: -4px;}
+
+@media (max-width:1199.98px){}
+@media (max-width:991.98px){}
+@media (max-width:767.98px){
+.footer-logo-area {display: flex;align-items: center;justify-content: center;margin-bottom: 25px;}
+.footer-upper-right {justify-content: center;}
+.footer-upper{padding: 64px 0 45px;}
+.footer-lower{padding: 40px 0 64px;}
+.footer-upper, .footer-lower {text-align: center;}
+.footer-upper .footer-nav-list{margin-top: 60px;}
+.footer-upper .footer-nav-item+.footer-nav-item{margin-top: 8px;}
+.footer-nav-links:before {width: 24px;height: 1px;left: 50%;top: 0;transform: translateX(-50%);}
+.footer-nav-links{padding-left: 0;margin-left: 0;margin-top: 10px;line-height: 45px;}
+.footer-nav-links .footer-link{margin-top: 12px;}
+.footer-upper .footer-nav-list .footer-nav-item{line-height: 53px;}
+.footer-lower .footer-nav-list .footer-nav-item{line-height: 21px;}
+.social-link{position: relative;left:auto;transform: none;justify-content: center;margin: 30px 0;}
+.footer-lower ul.footer-nav-list{margin-left: 0;}
+}
+@media (max-width:575.98px){}

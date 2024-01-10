@@ -1,0 +1,43 @@
+.contact-container{ position: relative;padding: 100px 0;height: 100vh;}
+.contact-left {width: 49.5%;}
+.contact-right {width: 50.5%;}
+.contact-container .contact-bg {width: 100%;height: 100%;position: absolute;left: 0;right: 0;top: 0;bottom: 0;background-position: center;background-size: cover;background-repeat: no-repeat;background-attachment: fixed;     z-index: -1;}
+.contact-bg:after {background: linear-gradient(90deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.53) 27.23%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%);
+content: '';position: absolute;width: 100%; height: 100%;top: 0;left: 0;right: 0;bottom: 0;}
+.contact-text h6 {color: var(--red);font-size: 14px;font-weight: 400;line-height: 1.5; letter-spacing: 4px;text-transform: uppercase;}
+.contact-text h2 {color: var(--white);font-family: Open Sans;font-size: 70px;font-style: normal;font-weight: 700;line-height: 1.18;margin-bottom:0;}
+.contact-details-box {margin-top: 79px;}
+.contact-details {font-size: 18px;font-weight: 400;display: flex;flex-direction: column;margin-bottom: 41px;line-height: 1.2;}
+.contact-details span {margin-bottom: 20px;font-size: 14px;letter-spacing: 0.42px;color: rgb(255 255 255 / 50%);font-weight: 500;text-transform: uppercase;}
+.contact-details:last-child{margin:0;}
+.contact-form { padding: 40px;background: var(--white);width: 100%;height: 100%;}
+.contact-form .form-floating {height: 61px;}
+.contact-form .form-floating input {border: none; border-bottom: 1px solid #E4E4E4;  border-radius: 0;  height: 100%;  font-size: 14px;  background-image: none; padding: 0;}
+.contact-form .form-floating .ms-lable {font-size: 14px;line-height: 1.2;padding: 0;height: 20px;bottom: 10px;top: auto;color: rgb(0 0 0 / 50%);}  
+.form-floating + .form-floating {margin-top: 20px;}  
+.form-floating .form-control:focus {box-shadow: none;}
+.form-btn-box {padding-top:40px;}
+.invalid input{ border-color: #EC3535!important;}
+.invalid .email-invalid{display: block;font-size: 14px;line-height: 1.4; margin-top: 6px;color: #EC3535;}
+.contact-form .form-floating.email-box input {border-color: var(--red);}
+.contact-form .form-floating.text-area {min-height: 159px;margin-top: 50px;}
+.contact-form .form-floating textarea { border: none; border-bottom: 1px solid #E4E4E4; border-radius: 0; resize: none; padding-left: 0; padding-right: 0; height:100%;}
+.contact-form .form-floating>.form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label, .form-floating>.form-select~label {opacity:1;
+transform: scale(1) translateY(-1.9rem) translateX(0rem); transition: all 0.3s;}
+.contact-form .form-floating .mr-lable {font-size: 14px; line-height: 1.2; color: rgb(0 0 0 / 50%); padding: 0; width: 100%; height: 20px; margin: 0; top: 29px;}
+.contact-details .contact-btn:hover{color:var(--white);text-decoration: underline;}
+.contact-form .form-floating.text-area>.form-control:focus~label, .form-floating.text-area>.form-control:not(:placeholder-shown)~label, .form-floating>.form-select~label {opacity: 1; transform: scale(1) translateY(-7.8rem) translateX(0rem); transition: all 0.3s;}
+.contact-form .form-floating.text-area>.mr-lable {font-size: 14px;line-height: 1.2;color: rgb(0 0 0 / 50%);padding: 0;width: 100%;height: 20px;margin: 0;top: 130px;}
+@media (max-width:991.98px){
+    .contact-form {padding: 30px 20px;}
+.contact-left {padding-right:0;}
+.contact-text h2 { font-size: 55px; line-height: 1.4;}
+}
+@media (max-width:767.98px){
+    .contact-container{padding: 57px 0; height:100%;}
+.contact-left {width: 100%;}
+.contact-right {width: 100%;margin-top: 84px;}
+.contact-text h2 { font-size: 40px;}
+.contact-text h6 {margin-bottom: 18px;}
+.contact-details-box.text-white {margin-top: 58px;}
+}
